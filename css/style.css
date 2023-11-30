@@ -3,9 +3,13 @@
   padding: 0;
   box-sizing: border-box;
 }
-body {
-  background-color: brown;
+
+header nav img {
+  width: 25%;
 }
-header nav {
-  background-color: aqua;
+
+body h1 {
+  color: brown;
 }
+
+/*# sourceMappingURL=style.css.map */
