@@ -1,0 +1,21 @@
+header {
+  background-color: rgb(1, 1, 3);
+  nav {
+    background-color: aqua;
+    ul {
+      list-style: none;
+      li {
+        a {
+          color: antiquewhite;
+          text-decoration: none;
+        }
+      }
+    }
+  }
+  .menu-hamburguesa {
+    a {
+      text-decoration: none;
+      color: antiquewhite;
+    }
+  }
+}

@@ -4,12 +4,22 @@
   box-sizing: border-box;
 }
 
-header nav img {
-  width: 25%;
+header {
+  background-color: rgb(1, 1, 3);
 }
-
-body h1 {
-  color: brown;
+header nav {
+  background-color: aqua;
+}
+header nav ul {
+  list-style: none;
+}
+header nav ul li a {
+  color: antiquewhite;
+  text-decoration: none;
+}
+header .menu-hamburguesa a {
+  text-decoration: none;
+  color: antiquewhite;
 }
 
 /*# sourceMappingURL=style.css.map */
