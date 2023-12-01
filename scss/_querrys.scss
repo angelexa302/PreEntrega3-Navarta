@@ -1,28 +1,39 @@
 /*1278 Pc low resolution*/
-@media only screen and (min-width: 829px) and (max-width: 1278px) {
+@media only screen and (min-width: 829px) and (max-width: 1279px) {
   header .menu-hamburguesa {
     display: block;
     align-items: center;
     text-align: center;
   }
 }
-@media only screen and (min-width: 734px) and (max-width: 952px) {
+@media only screen and (min-width: 925px) and (max-width: 952px) {
   body {
     font-size: 12px;
   }
 
-  header .menu-hamburguesa {
-    order: 1;
-    width: 100%;
+  // header .menu-hamburguesa {
+  //   order: -1;
+  //   width: 100%;
+  // }
+  // nav,
+  // header .menu-hamburguesa {
+  //   flex-direction: column;
+  //   align-items: flex-start;
+  // }
+}
+@media only screen and (min-width: 500px) and (max-width: 924px) {
+  nav {
+    display: none;
   }
-  nav,
-  header .menu-hamburguesa {
-    flex-direction: column; /* Cambia la dirección del eje principal a columna */
-    align-items: flex-start; /* Alinea los elementos a la izquierda */
+  body {
+    font-size: 12px;
   }
 }
-@media only screen and (min-width: 300px) and (max-width: 733px) {
+@media only screen and (min-width: 100px) and (max-width: 499px) {
   nav {
+    display: none;
+  }
+  header .player-humano {
     display: none;
   }
   body {
