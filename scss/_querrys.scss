@@ -1,0 +1,31 @@
+/*1278 Pc low resolution*/
+@media only screen and (min-width: 829px) and (max-width: 1278px) {
+  header .menu-hamburguesa {
+    display: block;
+    align-items: center;
+    text-align: center;
+  }
+}
+@media only screen and (min-width: 734px) and (max-width: 952px) {
+  body {
+    font-size: 12px;
+  }
+
+  header .menu-hamburguesa {
+    order: 1;
+    width: 100%;
+  }
+  nav,
+  header .menu-hamburguesa {
+    flex-direction: column; /* Cambia la dirección del eje principal a columna */
+    align-items: flex-start; /* Alinea los elementos a la izquierda */
+  }
+}
+@media only screen and (min-width: 300px) and (max-width: 733px) {
+  nav {
+    display: none;
+  }
+  body {
+    font-size: 12px;
+  }
+}
