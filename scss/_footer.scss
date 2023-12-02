@@ -7,4 +7,14 @@ footer {
       }
     }
   }
+  span {
+    background-color: aqua;
+    .line {
+      display: block;
+      background: url(assets/line.png) center no-repeat;
+      width: 100%;
+      overflow-x: hidden;
+      height: 86px;
+    }
+  }
 }
