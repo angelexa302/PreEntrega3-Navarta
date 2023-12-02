@@ -106,5 +106,16 @@ footer {
 footer ul li a {
   list-style: none;
 }
+footer .line {
+  display: block;
+  background: url(/assets/line.png) center no-repeat;
+  width: 100%;
+  overflow-x: hidden;
+  height: 86px;
+  transition: transform 2s;
+}
+footer .line:hover {
+  transform: scaleX(0.1);
+}
 
 /*# sourceMappingURL=style.css.map */
