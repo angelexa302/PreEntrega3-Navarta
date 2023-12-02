@@ -7,12 +7,20 @@ header {
     width: 20%;
     max-width: 100%;
     height: auto;
+    transition: width 2s;
+    &:hover {
+      width: 30%;
+    }
   }
   .player-humano {
     width: 20%;
     max-width: 100%;
     height: auto;
     justify-content: left;
+    transition: width 2s;
+    &:hover {
+      width: 30%;
+    }
   }
 
   max-width: 100%;
@@ -32,8 +40,8 @@ header {
           color: antiquewhite;
           text-decoration: none;
           &:hover {
-            color: rgb(58, 58, 63);
-
+            color: rgb(30, 30, 33);
+            background-color: rgb(36, 34, 34);
             transition: 1s;
           }
         }

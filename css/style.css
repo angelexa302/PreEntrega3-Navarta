@@ -19,12 +19,20 @@ header img {
   width: 20%;
   max-width: 100%;
   height: auto;
+  transition: width 2s;
+}
+header img:hover {
+  width: 30%;
 }
 header .player-humano {
   width: 20%;
   max-width: 100%;
   height: auto;
   justify-content: left;
+  transition: width 2s;
+}
+header .player-humano:hover {
+  width: 30%;
 }
 header nav ul {
   display: flex;
@@ -38,7 +46,8 @@ header nav ul li a {
   text-decoration: none;
 }
 header nav ul li a:hover {
-  color: rgb(58, 58, 63);
+  color: rgb(30, 30, 33);
+  background-color: rgb(36, 34, 34);
   transition: 1s;
 }
 header .menu-hamburguesa {
@@ -86,6 +95,16 @@ header .menu-hamburguesa a {
   body {
     font-size: 12px;
   }
+}
+main {
+  background-color: rgb(58, 58, 63);
+}
+
+footer {
+  background-color: rgb(58, 58, 63);
+}
+footer ul li a {
+  list-style: none;
 }
 
 /*# sourceMappingURL=style.css.map */
