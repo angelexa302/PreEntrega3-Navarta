@@ -1,5 +1,7 @@
+#grid-pie {
+  background-image: linear-gradient(to top, #0c0203, rgb(19, 5, 4));
+}
 footer {
-  background-color: rgb(58, 58, 63);
   ul {
     li {
       a {
@@ -17,6 +19,37 @@ footer {
     transition: transform 2s;
     &:hover {
       transform: scaleX(0.1);
+    }
+  }
+
+  section .columnas-pie1234 {
+    display: flex;
+    justify-content: space-around;
+    .columna-1,
+    .columna-2,
+    .columna-3,
+    .columna-4 {
+      ul {
+        list-style: none;
+        .email-support {
+          color: #fafafa;
+          opacity: 0.3;
+        }
+        li {
+          a {
+            text-decoration: none;
+            font-family: open sans, sans-serif;
+            list-style: none;
+            color: rgb(85, 26, 139);
+            font-size: large;
+            font-weight: 700;
+            transition: 2s;
+            &:hover {
+              color: #fafafa;
+            }
+          }
+        }
+      }
     }
   }
 }

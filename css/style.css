@@ -5,7 +5,7 @@
 }
 
 #grid {
-  background-image: linear-gradient(to bottom, rgb(1, 1, 3), rgb(58, 58, 63));
+  background-image: linear-gradient(to top, #0c0203, rgb(1, 1, 3));
 }
 
 header {
@@ -100,9 +100,10 @@ main {
   background-color: rgb(58, 58, 63);
 }
 
-footer {
-  background-color: rgb(58, 58, 63);
+#grid-pie {
+  background-image: linear-gradient(to top, #0c0203, rgb(19, 5, 4));
 }
+
 footer ul li a {
   list-style: none;
 }
@@ -116,6 +117,48 @@ footer .line {
 }
 footer .line:hover {
   transform: scaleX(0.1);
+}
+footer section .columnas-pie1234 {
+  display: flex;
+  justify-content: space-around;
+}
+footer section .columnas-pie1234 .columna-1 ul,
+footer section .columnas-pie1234 .columna-2 ul,
+footer section .columnas-pie1234 .columna-3 ul,
+footer section .columnas-pie1234 .columna-4 ul {
+  list-style: none;
+}
+footer section .columnas-pie1234 .columna-1 ul .email-support,
+footer section .columnas-pie1234 .columna-2 ul .email-support,
+footer section .columnas-pie1234 .columna-3 ul .email-support,
+footer section .columnas-pie1234 .columna-4 ul .email-support {
+  color: #fafafa;
+  opacity: 0.3;
+}
+footer section .columnas-pie1234 .columna-1 ul li a,
+footer section .columnas-pie1234 .columna-2 ul li a,
+footer section .columnas-pie1234 .columna-3 ul li a,
+footer section .columnas-pie1234 .columna-4 ul li a {
+  text-decoration: none;
+  font-family: open sans, sans-serif;
+  list-style: none;
+  color: rgb(85, 26, 139);
+  font-size: large;
+  font-weight: 700;
+  transition: 2s;
+}
+footer section .columnas-pie1234 .columna-1 ul li a:hover,
+footer section .columnas-pie1234 .columna-2 ul li a:hover,
+footer section .columnas-pie1234 .columna-3 ul li a:hover,
+footer section .columnas-pie1234 .columna-4 ul li a:hover {
+  color: #fafafa;
+}
+
+body main {
+  width: 100%;
+  height: 120vh;
+  background: url(/assets/body-bg.jpg) center no-repeat;
+  background-size: cover;
 }
 
 /*# sourceMappingURL=style.css.map */
