@@ -9,8 +9,8 @@
 }
 
 header {
-  max-width: 100%;
   display: flex;
+  max-width: 100%;
   align-items: center;
   justify-content: space-between;
 }
@@ -34,11 +34,15 @@ header .player-humano {
 header .player-humano:hover {
   width: 30%;
 }
+header nav {
+  align-items: center;
+}
 header nav ul {
   display: flex;
   list-style: none;
 }
 header nav ul li a {
+  text-align: center;
   margin: 15px;
   font-family: "Times New Roman", Times, serif;
   font-size: large;
@@ -50,16 +54,17 @@ header nav ul li a:hover {
   background-color: rgb(36, 34, 34);
   transition: 1s;
 }
-header .menu-hamburguesa {
-  align-items: center;
-  display: flex;
-}
 header .menu-hamburguesa img {
-  width: 80px;
+  margin-left: 20%;
+  justify-content: center;
+  align-items: center;
+  display: block;
+  width: 100px;
   max-width: 20%;
-  margin: 5px 5px;
+  max-height: 100%;
 }
 header .menu-hamburguesa a {
+  font-family: "Times New Roman", Times, serif;
   text-decoration: none;
   color: antiquewhite;
 }
@@ -104,6 +109,9 @@ main {
   background-image: linear-gradient(to top, #0c0203, rgb(19, 5, 4));
 }
 
+footer {
+  text-align: center;
+}
 footer ul li a {
   list-style: none;
 }
@@ -153,12 +161,31 @@ footer section .columnas-pie1234 .columna-3 ul li a:hover,
 footer section .columnas-pie1234 .columna-4 ul li a:hover {
   color: #fafafa;
 }
+footer .copyright {
+  font-size: 12px;
+  line-height: 1.4;
+  color: antiquewhite;
+}
+footer .copyright .f-text {
+  max-width: 800px;
+  margin: 0 auto;
+}
 
 body main {
   width: 100%;
   height: 120vh;
   background: url(/assets/body-bg.jpg) center no-repeat;
   background-size: cover;
+}
+body main .carousel {
+  align-items: center;
+  justify-content: center;
+  opacity: 0.5;
+  transition: opacity 0.15s ease;
+  width: 70%;
+}
+body main .carousel:hover {
+  opacity: 0.9;
 }
 
 /*# sourceMappingURL=style.css.map */

@@ -6,6 +6,8 @@
     <title>lineage 2 GodWorld</title>
     <!--Link Css-->
     <link rel="stylesheet" href="css/style.css" />
+    <!--Link Bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
   </head>
   <body>
     <header id="grid">
@@ -25,13 +27,36 @@
         </ul>
       </nav>
       <div class="menu-hamburguesa">
-        <img src="/assets/klipartz.com (1).png" alt="" /><a href="#"
+        <img src="/assets/klipartz.com (1).png" alt="Menu Hamburguesa" /><a href="#"
           >Ingresar</a
         >
       </div>
     </header>
-    <main>
-      <section><h1>Bienvenidos a Lineage 2 GodWorld</h1></section>
+  <main>
+    <section><h1>Bienvenidos a Lineage 2 GodWorld</h1></section>
+    <section class="carousel">
+      <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+       <div class="carousel-inner">
+       <div class="carousel-item active">
+      <img src="/assets/arreglo.jpg" class="d-block w-auto vh-100" alt="Primer imagen carrusel">
+       </div>
+        <div class="carousel-item">
+      <img src="/assets/103328.jpg" class="d-block w-75 w-auto vh-100" alt="Segunda imagen del carusel">
+    </div>
+    <div class="carousel-item">
+      <img src="/assets/274453.jpg" class="d-block w-auto vh-100" alt="Tercer imagen del carrusel">
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+</section>
     </main>
     <footer id="grid-pie">
     <section>
@@ -79,13 +104,15 @@
           <a class="vote-link" id="top-l2jbrasil-left" target="_blank" rel="noreferrer" href="//top.l2jbrasil.com/index.php?a=in&amp;u=L2ESports" style="position: fixed;bottom: 0;left: 0;z-index: 9999;width: 235px;"><img src="//top.l2jbrasil.com/button_l.php?u=L2ESports&amp;m=left" alt="Top L2JBrasil  de Servidores de   Lineage2 " border="0" style="max-width:70%"></a> 
         </div>
       </section>
-      <small>
+      <small class="copyright">
         <div class="f-text">
-          L2 INTERLUDE - LINEAGE 2 INTERLUDE - L2ESPORTS - X10 - AUTOFARM
+          L2 INTERLUDE - LINEAGE 2 INTERLUDE - L2GODWORLD - X10 - AUTOFARM
           <br>
           THIS SERVER IS A TEST VERSION OF THE LINEAGE II GAME. THE SERVER HAS LIMITED FUNCTIONS AND CAPABILITIES, AND IN FACT IS NOT INTENDED TO BE PLAYED ON IT. FOR A FULL-FLEDGED GAME IN LINEAGE, YOU MUST USE THE WWW.LINEAGE2.COM SERVICE. THE GOAL OF OUR PROJECT IS TO INCREASE THE POPULARITY OF THE LINEAGE II GAME. THE RIGHTS TO THE GAME CLIENT, AS WELL AS TO THE LINEAGE TRADEMARK, BELONG TO NCSOFT (LINEAGE2.COM).
         </div>
       </small>
     </footer>
+    <!--Script Bootstrap-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
   </body>
 </html>

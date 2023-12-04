@@ -52,4 +52,15 @@ footer {
       }
     }
   }
+  text-align: center;
+  .copyright {
+    font-size: 12px; // Ajusta el tamaño del texto según sea necesario
+    line-height: 1.4; // Ajusta el espaciado entre líneas
+    color: antiquewhite; // Establece el color del texto
+
+    .f-text {
+      max-width: 800px; // Establece un ancho máximo para evitar que el texto se extienda demasiado ancho
+      margin: 0 auto; // Centra el bloque de texto horizontalmente
+    }
+  }
 }
