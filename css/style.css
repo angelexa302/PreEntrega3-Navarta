@@ -117,7 +117,7 @@ footer ul li a {
 }
 footer .line {
   display: block;
-  background: url(/assets/line.png) center no-repeat;
+  background: url(../assets/line.png) center no-repeat;
   width: 100%;
   overflow-x: hidden;
   height: 86px;
