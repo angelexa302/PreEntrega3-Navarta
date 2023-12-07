@@ -29,10 +29,6 @@ header .player-humano {
   max-width: 100%;
   height: auto;
   justify-content: left;
-  transition: width 2s;
-}
-header .player-humano:hover {
-  width: 10%;
 }
 header nav {
   align-items: center;

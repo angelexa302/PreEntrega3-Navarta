@@ -17,10 +17,6 @@ header {
     max-width: 100%;
     height: auto;
     justify-content: left;
-    transition: width 2s;
-    &:hover {
-      width: 10%;
-    }
   }
   display: flex;
   max-width: 100%;
