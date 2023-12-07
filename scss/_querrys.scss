@@ -1,34 +1,70 @@
 /*1278 Pc low resolution*/
-@media only screen and (min-width: 829px) and (max-width: 1279px) {
+@media only screen and (min-width: 1013px) and (max-width: 1279px) {
   header .menu-hamburguesa {
-    display: block;
     align-items: center;
     text-align: center;
   }
 }
-@media only screen and (min-width: 925px) and (max-width: 952px) {
-  body {
-    font-size: 12px;
-  }
-
-  // header .menu-hamburguesa {
-  //   order: -1;
-  //   width: 100%;
-  // }
-  // nav,
-  // header .menu-hamburguesa {
-  //   flex-direction: column;
-  //   align-items: flex-start;
-  // }
-}
-@media only screen and (min-width: 500px) and (max-width: 924px) {
+@media only screen and (min-width: 583px) and (max-width: 1013px) {
   nav {
     display: none;
-  }
-  body {
+
     font-size: 12px;
   }
 }
+
+@media only screen and (min-width: 583px) and (max-width: 902px) {
+  nav,
+  main .imagen-godworld {
+    display: none;
+  }
+}
+@media only screen and (min-width: 200px) and (max-width: 582px) {
+  nav,
+  main .imagen-godworld {
+    font-size: 12px;
+    display: none;
+    font-size: 12px;
+  }
+}
+@media only screen and (min-width: 300px) and (max-width: 678px) {
+  footer {
+    h2 {
+      font-size: 16px;
+    }
+    .columna-1,
+    .columna-2,
+    .columna-3,
+    .columna-4,
+    ul {
+      li {
+        a,
+        p {
+          text-align: center;
+          width: 10px;
+          font-weight: 0;
+          font-size: 10px;
+          height: 5%;
+        }
+      }
+    }
+    ul li a {
+      font-size: 8px; // Ajusta el tamaño de fuente de los enlaces
+    }
+    .copyright .f-text {
+      font-size: 5px;
+    }
+  }
+}
+
+// @media only screen and (min-width: 500px) and (max-width: 924px) {
+//   nav {
+//     display: none;
+//   }
+//   body {
+//     font-size: 12px;
+//   }
+// }
 @media only screen and (min-width: 100px) and (max-width: 499px) {
   nav {
     display: none;

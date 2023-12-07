@@ -5,16 +5,16 @@ header {
   img {
     justify-content: left;
     width: 20%;
-    max-width: 100%;
+    max-width: 50%;
     height: auto;
-    transition: width 2s;
+    transition: width 1s;
     &:hover {
-      width: 30%;
+      width: 22%;
     }
   }
   .player-humano {
     width: 20%;
-    max-width: 100%;
+    max-width: 30%;
     height: auto;
     justify-content: left;
   }
