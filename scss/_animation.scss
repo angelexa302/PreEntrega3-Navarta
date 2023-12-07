@@ -23,7 +23,11 @@
 }
 body {
   main {
-    .primera-plana {
+    .animacion {
+      position: relative;
+      width: 300px;
+      height: 300px;
+
       .light-animation {
         background: url(../assets/online-img.png) bottom center no-repeat;
         width: 300px;
@@ -35,8 +39,8 @@ body {
         background: url(../assets/yellow-light.png);
         width: 300px;
         height: 300px;
-        top: 300px;
-        left: 60px;
+        top: 0px;
+        left: 0px;
         position: absolute;
         animation: 12s p-prev linear infinite;
         opacity: 0.7;
@@ -45,8 +49,8 @@ body {
         background: url(../assets/blue-light.png);
         width: 300px;
         height: 300px;
-        top: 300px;
-        left: 60px;
+        top: 0pc;
+        left: 0px;
         position: absolute;
         animation: 12s p-next linear infinite;
         opacity: 0.7;
