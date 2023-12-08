@@ -24,47 +24,38 @@
   main .imagen-godworld {
     font-size: 12px;
     display: none;
-    font-size: 12px;
   }
 }
 @media only screen and (min-width: 300px) and (max-width: 678px) {
   footer {
-    h2 {
-      font-size: 16px;
+    .copyright {
+      .f-text {
+        font-size: 2px;
+      }
     }
-    .columna-1,
-    .columna-2,
-    .columna-3,
-    .columna-4,
+  }
+  .grid-container {
+    display: grid;
+
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
     ul {
       li {
-        a,
-        p {
-          text-align: center;
-          width: 10px;
-          font-weight: 0;
-          font-size: 10px;
-          height: 5%;
+        font-size: 5px;
+        a {
+          font-size: 5px;
         }
       }
     }
-    ul li a {
-      font-size: 8px; // Ajusta el tamaño de fuente de los enlaces
+    h2 {
+      font-size: 8px;
     }
-    .copyright .f-text {
-      font-size: 5px;
+    .email-support {
+      font-size: 10px;
     }
   }
 }
 
-// @media only screen and (min-width: 500px) and (max-width: 924px) {
-//   nav {
-//     display: none;
-//   }
-//   body {
-//     font-size: 12px;
-//   }
-// }
 @media only screen and (min-width: 100px) and (max-width: 499px) {
   nav {
     display: none;

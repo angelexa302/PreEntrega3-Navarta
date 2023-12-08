@@ -1,15 +1,6 @@
-#grid-pie {
-  background-image: linear-gradient(to top, #0c0203, rgb(19, 5, 4));
-}
 footer {
-  ul {
-    li {
-      a {
-        list-style: none;
-      }
-    }
-  }
-
+  background-image: linear-gradient(to top, #0c0203, rgb(19, 5, 4));
+  padding: 10px;
   .line {
     display: block;
     background: url(../assets/line.png) center no-repeat;
@@ -21,46 +12,36 @@ footer {
       transform: scaleX(0.1);
     }
   }
-
-  section .columnas-pie1234 {
-    display: flex;
-    justify-content: space-around;
-    .columna-1,
-    .columna-2,
-    .columna-3,
-    .columna-4 {
-      ul {
-        list-style: none;
-        .email-support {
-          color: #fafafa;
-          opacity: 0.3;
-        }
-        li {
-          a {
-            text-decoration: none;
-            font-family: Arial, Helvetica, sans-serif;
-            list-style: none;
-            color: rgb(85, 26, 139);
-            font-size: 18px;
-            font-weight: 700;
-            transition: 2s;
-            &:hover {
-              color: #fafafa;
+  .grid-container {
+    section .columnas-pie1234 {
+      display: flex;
+      justify-content: space-around;
+      .columna-1,
+      .columna-2,
+      .columna-3,
+      .columna-4 {
+        ul {
+          list-style: none;
+          .email-support {
+            color: #fafafa;
+            opacity: 0.3;
+          }
+          li {
+            a {
+              text-decoration: none;
+              font-family: Arial, Helvetica, sans-serif;
+              list-style: none;
+              color: rgb(85, 26, 139);
+              font-size: 18px;
+              font-weight: 700;
+              transition: 2s;
+              &:hover {
+                color: #fafafa;
+              }
             }
           }
         }
       }
-    }
-  }
-  text-align: center;
-  .copyright {
-    font-size: 12px; // Ajusta el tamaño del texto según sea necesario
-    line-height: 1.4; // Ajusta el espaciado entre líneas
-    color: antiquewhite; // Establece el color del texto
-
-    .f-text {
-      max-width: 800px; // Establece un ancho máximo para evitar que el texto se extienda demasiado ancho
-      margin: 0 auto; // Centra el bloque de texto horizontalmente
     }
   }
 }

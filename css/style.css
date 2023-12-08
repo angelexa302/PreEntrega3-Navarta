@@ -89,34 +89,28 @@ header .menu-hamburguesa a {
   main .imagen-godworld {
     font-size: 12px;
     display: none;
-    font-size: 12px;
   }
 }
 @media only screen and (min-width: 300px) and (max-width: 678px) {
-  footer h2 {
-    font-size: 16px;
+  footer .copyright .f-text {
+    font-size: 2px;
   }
-  footer .columna-1 li a,
-  footer .columna-1 li p,
-  footer .columna-2 li a,
-  footer .columna-2 li p,
-  footer .columna-3 li a,
-  footer .columna-3 li p,
-  footer .columna-4 li a,
-  footer .columna-4 li p,
-  footer ul li a,
-  footer ul li p {
-    text-align: center;
-    width: 10px;
-    font-weight: 0;
-    font-size: 10px;
-    height: 5%;
+  .grid-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
   }
-  footer ul li a {
+  .grid-container ul li {
+    font-size: 5px;
+  }
+  .grid-container ul li a {
+    font-size: 5px;
+  }
+  .grid-container h2 {
     font-size: 8px;
   }
-  footer .copyright .f-text {
-    font-size: 5px;
+  .grid-container .email-support {
+    font-size: 10px;
   }
 }
 @media only screen and (min-width: 100px) and (max-width: 499px) {
@@ -134,15 +128,9 @@ main {
   background-color: rgb(58, 58, 63);
 }
 
-#grid-pie {
-  background-image: linear-gradient(to top, #0c0203, rgb(19, 5, 4));
-}
-
 footer {
-  text-align: center;
-}
-footer ul li a {
-  list-style: none;
+  background-image: linear-gradient(to top, #0c0203, rgb(19, 5, 4));
+  padding: 10px;
 }
 footer .line {
   display: block;
@@ -155,27 +143,27 @@ footer .line {
 footer .line:hover {
   transform: scaleX(0.1);
 }
-footer section .columnas-pie1234 {
+footer .grid-container section .columnas-pie1234 {
   display: flex;
   justify-content: space-around;
 }
-footer section .columnas-pie1234 .columna-1 ul,
-footer section .columnas-pie1234 .columna-2 ul,
-footer section .columnas-pie1234 .columna-3 ul,
-footer section .columnas-pie1234 .columna-4 ul {
+footer .grid-container section .columnas-pie1234 .columna-1 ul,
+footer .grid-container section .columnas-pie1234 .columna-2 ul,
+footer .grid-container section .columnas-pie1234 .columna-3 ul,
+footer .grid-container section .columnas-pie1234 .columna-4 ul {
   list-style: none;
 }
-footer section .columnas-pie1234 .columna-1 ul .email-support,
-footer section .columnas-pie1234 .columna-2 ul .email-support,
-footer section .columnas-pie1234 .columna-3 ul .email-support,
-footer section .columnas-pie1234 .columna-4 ul .email-support {
+footer .grid-container section .columnas-pie1234 .columna-1 ul .email-support,
+footer .grid-container section .columnas-pie1234 .columna-2 ul .email-support,
+footer .grid-container section .columnas-pie1234 .columna-3 ul .email-support,
+footer .grid-container section .columnas-pie1234 .columna-4 ul .email-support {
   color: #fafafa;
   opacity: 0.3;
 }
-footer section .columnas-pie1234 .columna-1 ul li a,
-footer section .columnas-pie1234 .columna-2 ul li a,
-footer section .columnas-pie1234 .columna-3 ul li a,
-footer section .columnas-pie1234 .columna-4 ul li a {
+footer .grid-container section .columnas-pie1234 .columna-1 ul li a,
+footer .grid-container section .columnas-pie1234 .columna-2 ul li a,
+footer .grid-container section .columnas-pie1234 .columna-3 ul li a,
+footer .grid-container section .columnas-pie1234 .columna-4 ul li a {
   text-decoration: none;
   font-family: Arial, Helvetica, sans-serif;
   list-style: none;
@@ -184,20 +172,11 @@ footer section .columnas-pie1234 .columna-4 ul li a {
   font-weight: 700;
   transition: 2s;
 }
-footer section .columnas-pie1234 .columna-1 ul li a:hover,
-footer section .columnas-pie1234 .columna-2 ul li a:hover,
-footer section .columnas-pie1234 .columna-3 ul li a:hover,
-footer section .columnas-pie1234 .columna-4 ul li a:hover {
+footer .grid-container section .columnas-pie1234 .columna-1 ul li a:hover,
+footer .grid-container section .columnas-pie1234 .columna-2 ul li a:hover,
+footer .grid-container section .columnas-pie1234 .columna-3 ul li a:hover,
+footer .grid-container section .columnas-pie1234 .columna-4 ul li a:hover {
   color: #fafafa;
-}
-footer .copyright {
-  font-size: 12px;
-  line-height: 1.4;
-  color: antiquewhite;
-}
-footer .copyright .f-text {
-  max-width: 800px;
-  margin: 0 auto;
 }
 
 body h1 {
@@ -276,6 +255,15 @@ body main .animacion .blue-light {
   position: absolute;
   animation: 12s p-next linear infinite;
   opacity: 0.7;
+}
+
+footer small .f-text {
+  margin: 10px 200px;
+  font-size: 12px;
+  color: red;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
 }
 
 /*# sourceMappingURL=style.css.map */
