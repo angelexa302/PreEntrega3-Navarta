@@ -40,9 +40,9 @@ header nav ul {
 header nav ul li a {
   text-align: center;
   margin: 15px;
-  font-family: "Times New Roman", Times, serif;
   font-size: large;
-  color: antiquewhite;
+  font-family: philosopher, sans-serif;
+  color: #ffdda9;
   text-decoration: none;
 }
 header nav ul li a:hover {
@@ -60,9 +60,9 @@ header .menu-hamburguesa img {
   max-height: 100%;
 }
 header .menu-hamburguesa a {
-  font-family: "Times New Roman", Times, serif;
   text-decoration: none;
-  color: antiquewhite;
+  font-family: philosopher, sans-serif;
+  color: #ffdda9;
 }
 
 /*1278 Pc low resolution*/
@@ -91,26 +91,35 @@ header .menu-hamburguesa a {
     display: none;
   }
 }
-@media only screen and (min-width: 300px) and (max-width: 678px) {
-  footer .copyright .f-text {
-    font-size: 2px;
-  }
-  .grid-container {
-    display: grid;
+@media only screen and (min-width: 100px) and (max-width: 678px) {
+  footer .grid-container {
+    display: grid !important;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(2, 1fr);
   }
-  .grid-container ul li {
-    font-size: 5px;
-  }
-  .grid-container ul li a {
-    font-size: 5px;
-  }
-  .grid-container h2 {
-    font-size: 8px;
-  }
-  .grid-container .email-support {
+  footer .grid-container ul li {
     font-size: 10px;
+  }
+  footer .grid-container ul li a {
+    font-size: 10px !important;
+  }
+  footer .grid-container h2 {
+    font-size: 12px !important;
+  }
+  footer .grid-container .email-support {
+    font-size: 10px !important;
+  }
+  footer small .f-text {
+    margin: 2px 100px !important;
+    font-size: 8px !important;
+  }
+}
+@media only screen and (min-width: 100px) and (max-width: 376px) {
+  footer .voto {
+    display: none;
+  }
+  main .animacion {
+    display: none;
   }
 }
 @media only screen and (min-width: 100px) and (max-width: 499px) {
@@ -143,40 +152,25 @@ footer .line {
 footer .line:hover {
   transform: scaleX(0.1);
 }
-footer .grid-container section .columnas-pie1234 {
+footer .grid-container {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
 }
-footer .grid-container section .columnas-pie1234 .columna-1 ul,
-footer .grid-container section .columnas-pie1234 .columna-2 ul,
-footer .grid-container section .columnas-pie1234 .columna-3 ul,
-footer .grid-container section .columnas-pie1234 .columna-4 ul {
+footer .grid-container ul li a {
+  font-size: 12px;
+}
+footer .grid-container h2 {
+  font-family: philosopher, sans-serif;
+  font-size: 25px;
+  color: #ffdda9;
+}
+footer .grid-container .email-support {
+  font-size: 16px;
   list-style: none;
 }
-footer .grid-container section .columnas-pie1234 .columna-1 ul .email-support,
-footer .grid-container section .columnas-pie1234 .columna-2 ul .email-support,
-footer .grid-container section .columnas-pie1234 .columna-3 ul .email-support,
-footer .grid-container section .columnas-pie1234 .columna-4 ul .email-support {
-  color: #fafafa;
-  opacity: 0.3;
-}
-footer .grid-container section .columnas-pie1234 .columna-1 ul li a,
-footer .grid-container section .columnas-pie1234 .columna-2 ul li a,
-footer .grid-container section .columnas-pie1234 .columna-3 ul li a,
-footer .grid-container section .columnas-pie1234 .columna-4 ul li a {
-  text-decoration: none;
-  font-family: Arial, Helvetica, sans-serif;
+footer .grid-container .email-support ul li p {
+  color: red;
   list-style: none;
-  color: rgb(85, 26, 139);
-  font-size: 18px;
-  font-weight: 700;
-  transition: 2s;
-}
-footer .grid-container section .columnas-pie1234 .columna-1 ul li a:hover,
-footer .grid-container section .columnas-pie1234 .columna-2 ul li a:hover,
-footer .grid-container section .columnas-pie1234 .columna-3 ul li a:hover,
-footer .grid-container section .columnas-pie1234 .columna-4 ul li a:hover {
-  color: #fafafa;
 }
 
 body h1 {

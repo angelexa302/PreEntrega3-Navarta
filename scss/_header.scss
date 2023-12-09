@@ -31,9 +31,9 @@ header {
         a {
           text-align: center;
           margin: 15px;
-          font-family: "Times New Roman", Times, serif;
           font-size: large;
-          color: antiquewhite;
+          font-family: philosopher, sans-serif;
+          color: #ffdda9;
           text-decoration: none;
           &:hover {
             color: rgb(30, 30, 33);
@@ -56,9 +56,9 @@ header {
     }
 
     a {
-      font-family: "Times New Roman", Times, serif;
       text-decoration: none;
-      color: antiquewhite;
+      font-family: philosopher, sans-serif;
+      color: #ffdda9;
     }
   }
 }
