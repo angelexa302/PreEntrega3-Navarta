@@ -19,17 +19,30 @@ footer {
     ul {
       li {
         a {
-          font-size: 12px;
+          list-style: lower-alpha;
+          font-family: "Open Sans", sans-serif;
+          font-size: 20px;
+          filter: drop-shadow(0 0 10px #ff2a00);
+          transition: all 0.3s ease;
+          color: #696868;
+          text-decoration: none;
+          &:hover {
+            color: #fff;
+            text-decoration: none;
+          }
         }
       }
     }
     h2 {
       font-family: philosopher, sans-serif;
-      font-size: 25px;
+      font-size: 27px;
       color: #ffdda9;
+      filter: drop-shadow(0 0 10px #ff2a00);
     }
     .email-support {
-      font-size: 16px;
+      font-family: "Open Sans", sans-serif;
+      font-size: 20px;
+      filter: drop-shadow(0 0 10px #ff2a00);
       list-style: none;
       ul {
         li {

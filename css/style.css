@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@500;600;700;800&family=Philosopher&family=Poppins:wght@200;400;500&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -87,7 +88,6 @@ header .menu-hamburguesa a {
 @media only screen and (min-width: 200px) and (max-width: 582px) {
   nav,
   main .imagen-godworld {
-    font-size: 12px;
     display: none;
   }
 }
@@ -98,13 +98,13 @@ header .menu-hamburguesa a {
     grid-template-rows: repeat(2, 1fr);
   }
   footer .grid-container ul li {
-    font-size: 12px;
-  }
-  footer .grid-container ul li a {
     font-size: 12px !important;
   }
+  footer .grid-container ul li a {
+    font-size: 10px !important;
+  }
   footer .grid-container h2 {
-    font-size: 14px !important;
+    font-size: 12px !important;
   }
   footer .grid-container .email-support {
     font-size: 12px !important;
@@ -123,6 +123,11 @@ header .menu-hamburguesa a {
     font-size: 2px;
   }
   main .animacion {
+    display: none;
+  }
+}
+@media only screen and (min-width: 100px) and (max-width: 313px) {
+  footer small {
     display: none;
   }
 }
@@ -161,15 +166,28 @@ footer .grid-container {
   justify-content: space-between;
 }
 footer .grid-container ul li a {
-  font-size: 12px;
+  list-style: lower-alpha;
+  font-family: "Open Sans", sans-serif;
+  font-size: 20px;
+  filter: drop-shadow(0 0 10px #ff2a00);
+  transition: all 0.3s ease;
+  color: #696868;
+  text-decoration: none;
+}
+footer .grid-container ul li a:hover {
+  color: #fff;
+  text-decoration: none;
 }
 footer .grid-container h2 {
   font-family: philosopher, sans-serif;
-  font-size: 25px;
+  font-size: 27px;
   color: #ffdda9;
+  filter: drop-shadow(0 0 10px #ff2a00);
 }
 footer .grid-container .email-support {
-  font-size: 16px;
+  font-family: "Open Sans", sans-serif;
+  font-size: 20px;
+  filter: drop-shadow(0 0 10px #ff2a00);
   list-style: none;
 }
 footer .grid-container .email-support ul li p {
@@ -262,6 +280,53 @@ footer small .f-text {
   text-align: center;
   justify-content: center;
   align-items: center;
+}
+
+.sparks > div {
+  position: absolute;
+}
+
+.sparks .spark_1 {
+  background: url(../assets/spark_1.png) no-repeat;
+  width: 764px;
+  height: 313px;
+  right: 0;
+  bottom: -120px;
+  transform: scale(0.6);
+  animation: spark-1 4s linear infinite;
+  animation-delay: 1s;
+}
+
+.sparks .spark_2 {
+  background: url(../assets/spark_2.png) no-repeat;
+  width: 149px;
+  height: 335px;
+  right: 230px;
+  bottom: -320px;
+  transform: scale(0.6);
+  animation: spark-1 4s linear infinite;
+  animation-delay: 2s;
+}
+
+.sparks .spark_3 {
+  background: url(../assets/spark_3.png) no-repeat;
+  width: 128px;
+  height: 165px;
+  right: 280px;
+  bottom: -140px;
+  transform: scale(0.6);
+  animation: spark-3 4s linear infinite;
+  animation-delay: 2s;
+}
+
+.sparks .spark-big {
+  background: url(../assets/spark_4.png) no-repeat;
+  width: 794px;
+  height: 176px;
+  right: 0;
+  bottom: -180px;
+  transform: scale(0.6);
+  animation: spark-5 4s linear infinite;
 }
 
 /*# sourceMappingURL=style.css.map */
