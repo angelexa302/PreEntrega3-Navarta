@@ -30,15 +30,21 @@ header {
       li {
         a {
           text-align: center;
+          display: inline-block;
           margin: 15px;
           font-size: large;
+          padding: 10px 20px;
           font-family: philosopher, sans-serif;
           color: #ffdda9;
+          border-radius: 3px;
           text-decoration: none;
+          border: 2px solid transparent;
+          transition: background-color 0.5s, color 0.5s, border-color 0.5s;
           &:hover {
-            color: rgb(30, 30, 33);
+            color: rgb(56, 47, 33);
+            border-radius: 3px;
             background-color: rgb(36, 34, 34);
-            transition: 1s;
+            border-color: #ffdda9;
           }
         }
       }
