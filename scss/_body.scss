@@ -11,7 +11,7 @@ body {
     .primera-plana {
       display: flex;
       align-items: center;
-      justify-content: baseline;
+      justify-content: space-around;
     }
     width: 100%;
     height: 120vh;
@@ -26,5 +26,9 @@ body {
         opacity: $carousel-control-hover-opacity;
       }
     }
+  }
+  /*pertenece a la pagina descargas*/
+  .sin-fondo {
+    background: rgb(12, 2, 3);
   }
 }

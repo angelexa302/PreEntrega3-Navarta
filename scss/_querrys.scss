@@ -1,8 +1,8 @@
 /*1278 Pc low resolution*/
 @media only screen and (min-width: 1013px) and (max-width: 1279px) {
-  header .menu-hamburguesa {
-    align-items: center;
-    text-align: center;
+  header .bg-custom {
+    align-items: center !important;
+    justify-content: center !important;
   }
   body {
     main {
@@ -12,7 +12,7 @@
     }
   }
 }
-@media only screen and (min-width: 583px) and (max-width: 1013px) {
+@media only screen and (min-width: 100px) and (max-width: 1278px) {
   nav {
     display: none;
 
