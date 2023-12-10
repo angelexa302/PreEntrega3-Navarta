@@ -25,4 +25,17 @@ header {
       $navbar-light-toggler-icon-bg: #ffdda9;
     }
   }
+  nav {
+    .offcanvas-header,
+    .offcanvas-body {
+      .custom-txt {
+        color: #ffdda9;
+        font-family: philosopher, sans-serif;
+      }
+      a {
+        color: #ffdda9;
+        font-family: philosopher, sans-serif;
+      }
+    }
+  }
 }

@@ -385,5 +385,15 @@ header .button-custom {
   border: none;
   transition: 1s;
 }
+header nav .offcanvas-header .custom-txt,
+header nav .offcanvas-body .custom-txt {
+  color: #ffdda9;
+  font-family: philosopher, sans-serif;
+}
+header nav .offcanvas-header a,
+header nav .offcanvas-body a {
+  color: #ffdda9;
+  font-family: philosopher, sans-serif;
+}
 
 /*# sourceMappingURL=style.css.map */
