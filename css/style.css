@@ -103,17 +103,21 @@ header .menu-hamburguesa a {
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(2, 1fr);
   }
+  footer .grid-container ul {
+    justify-content: center;
+  }
   footer .grid-container ul li {
-    font-size: 14px !important;
+    font-size: 18px !important;
   }
   footer .grid-container ul li a {
-    font-size: 12px !important;
+    font-size: 16px !important;
   }
   footer .grid-container h2 {
-    font-size: 14px !important;
+    justify-content: center;
+    font-size: 18px !important;
   }
   footer .grid-container .email-support {
-    font-size: 14px !important;
+    font-size: 18px !important;
   }
   footer small .f-text {
     margin: 2px 80px !important;
