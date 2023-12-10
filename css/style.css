@@ -71,7 +71,7 @@ header a {
   }
 }
 @media only screen and (min-width: 100px) and (max-width: 1278px) {
-  nav {
+  .player-humano {
     display: none;
     font-size: 12px;
   }
@@ -211,7 +211,7 @@ body main {
 body main .primera-plana {
   display: flex;
   align-items: center;
-  justify-content: space-around;
+  justify-content: left;
 }
 body main .carousel {
   align-items: center;
