@@ -3,7 +3,6 @@
 }
 header {
   img {
-    justify-content: left;
     width: 20%;
     max-width: 50%;
     height: auto;
@@ -16,7 +15,6 @@ header {
     width: 20%;
     max-width: 30%;
     height: auto;
-    justify-content: left;
   }
   display: flex;
   max-width: 100%;
@@ -30,8 +28,7 @@ header {
       li {
         a {
           text-align: center;
-          display: inline-block;
-          margin: 15px;
+          margin: 0px;
           font-size: large;
           padding: 10px 20px;
           font-family: philosopher, sans-serif;
