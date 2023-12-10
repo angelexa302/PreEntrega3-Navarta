@@ -77,6 +77,11 @@ header a {
   }
 }
 @media only screen and (min-width: 583px) and (max-width: 902px) {
+  header .bg-custom {
+    display: none;
+  }
+}
+@media only screen and (min-width: 583px) and (max-width: 782px) {
   nav,
   main .imagen-godworld {
     display: none;
