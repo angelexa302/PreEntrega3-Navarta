@@ -148,10 +148,6 @@ header a {
     font-size: 12px;
   }
 }
-main {
-  background-color: rgb(58, 58, 63);
-}
-
 footer {
   background-image: linear-gradient(to top, #0c0203, rgb(19, 5, 4));
   padding: 10px;
@@ -229,6 +225,10 @@ body main .carousel:hover {
 }
 body .sin-fondo {
   background: rgb(12, 2, 3);
+}
+
+main {
+  background-color: rgb(58, 58, 63);
 }
 
 @keyframes p-prev {
