@@ -197,13 +197,11 @@ footer .grid-container .email-support ul li p {
   list-style: none;
 }
 
-body {
-  /*pertenece a la pagina descargas*/
-}
 body h1 {
   color: #ffdda9;
 }
 body main {
+  background-color: rgb(58, 58, 63);
   width: 100%;
   height: 120vh;
   background: url(../assets/body-bg.jpg) center no-repeat;
@@ -222,13 +220,6 @@ body main .carousel {
 }
 body main .carousel:hover {
   opacity: 0.9;
-}
-body .sin-fondo {
-  background: rgb(12, 2, 3);
-}
-
-main {
-  background-color: rgb(58, 58, 63);
 }
 
 @keyframes p-prev {
@@ -399,6 +390,10 @@ header nav .offcanvas-header a,
 header nav .offcanvas-body a {
   color: #ffdda9;
   font-family: philosopher, sans-serif;
+}
+
+.main {
+  width: 50%;
 }
 
 /*# sourceMappingURL=style.css.map */

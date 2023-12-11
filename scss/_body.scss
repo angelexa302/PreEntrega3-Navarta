@@ -8,6 +8,7 @@ body {
   }
 
   main {
+    background-color: rgb(58, 58, 63);
     .primera-plana {
       display: flex;
       align-items: center;
@@ -27,11 +28,4 @@ body {
       }
     }
   }
-  /*pertenece a la pagina descargas*/
-  .sin-fondo {
-    background: rgb(12, 2, 3);
-  }
-}
-main {
-  background-color: rgb(58, 58, 63);
 }
