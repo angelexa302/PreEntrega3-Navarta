@@ -242,6 +242,7 @@ body main .icono-ws {
   bottom: 150px;
   right: 20px;
   transition: 1s;
+  z-index: 1000;
 }
 body main .icono-ws:hover {
   transform: rotate(360deg) translateY(-14px);
