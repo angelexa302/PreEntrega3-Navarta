@@ -42,5 +42,14 @@ body {
         opacity: $carousel-control-hover-opacity;
       }
     }
+    .icono-ws {
+      position: fixed;
+      bottom: 150px;
+      right: 20px;
+      transition: 1s;
+      &:hover {
+        transform: rotate(360deg) translateY(-14px);
+      }
+    }
   }
 }

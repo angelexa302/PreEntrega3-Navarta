@@ -237,6 +237,15 @@ body main .carousel {
 body main .carousel:hover {
   opacity: 0.9;
 }
+body main .icono-ws {
+  position: fixed;
+  bottom: 150px;
+  right: 20px;
+  transition: 1s;
+}
+body main .icono-ws:hover {
+  transform: rotate(360deg) translateY(-14px);
+}
 
 @keyframes p-prev {
   0% {
