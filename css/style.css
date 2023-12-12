@@ -200,6 +200,22 @@ footer .grid-container .email-support ul li p {
 body h1 {
   color: #ffdda9;
 }
+body .card-container {
+  height: 130vh;
+  min-height: 140vh;
+}
+body .main {
+  width: 50%;
+  height: 20%;
+}
+body .card-custom {
+  display: flex;
+  justify-content: center;
+  background-image: linear-gradient(to top, #0c0203, rgb(19, 5, 4));
+}
+body .card-custom .sin-fondo {
+  background: none;
+}
 body main {
   background-color: rgb(58, 58, 63);
   width: 100%;
@@ -390,10 +406,6 @@ header nav .offcanvas-header a,
 header nav .offcanvas-body a {
   color: #ffdda9;
   font-family: philosopher, sans-serif;
-}
-
-.main {
-  width: 50%;
 }
 
 /*# sourceMappingURL=style.css.map */

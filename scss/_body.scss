@@ -6,7 +6,22 @@ body {
   h1 {
     color: #ffdda9;
   }
-
+  .card-container {
+    height: 130vh;
+    min-height: 140vh;
+  }
+  .main {
+    width: 50%;
+    height: 20%;
+  }
+  .card-custom {
+    display: flex;
+    justify-content: center;
+    background-image: linear-gradient(to top, #0c0203, rgb(19, 5, 4));
+    .sin-fondo {
+      background: none;
+    }
+  }
   main {
     background-color: rgb(58, 58, 63);
     .primera-plana {
