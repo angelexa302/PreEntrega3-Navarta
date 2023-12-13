@@ -1,0 +1,127 @@
+// @keyframes scale-shockwave2 {
+//   0% {
+//     transform: scale(1) rotate(280deg);
+//     opacity: 0;
+//   }
+//   10% {
+//     opacity: 0.3;
+//   }
+//   90% {
+//     opacity: 0.3;
+//   }
+//   100% {
+//     opacity: 0;
+//     transform: scale(8) rotate(280deg);
+//   }
+// }
+// @keyframes scale-shockwave2 {
+//   0% {
+//     transform: scale(1) rotate(280deg);
+//     opacity: 0;
+//   }
+//   10% {
+//     opacity: 0.3;
+//   }
+//   90% {
+//     opacity: 0.3;
+//   }
+//   100% {
+//     opacity: 0;
+//     transform: scale(8) rotate(280deg);
+//   }
+// }
+// .top-effect {
+//   animation: scale-shockwave 8s infinite linear;
+// }
+// .top-effect {
+//   animation: scale-shockwave2 8s 6s infinite linear;
+// }
+// .top-effect img {
+//   width: 200vh;
+//   opacity: 0.4;
+//   position: absolute;
+//   display: flex;
+//   height: 100%;
+//   align-items: center;
+//   justify-content: center;
+//   left: 40px;
+//   top: 300px;
+//   overflow: hidden;
+//   z-index: 100;
+// }
+// img {
+//   transition: 0.5s;
+// }
+
+// .top_effect img:nth-child(2) {
+//   animation: scale-shockwave2 8s 6s infinite linear;
+// }
+@keyframes scale-shockwave {
+  0% {
+    transform: scale(1);
+    opacity: 0;
+  }
+  5% {
+    opacity: 0.4;
+  }
+  90% {
+    opacity: 0.4;
+  }
+  100% {
+    opacity: 0;
+    transform: scale(8);
+  }
+}
+@keyframes scale-shockwave2 {
+  0% {
+    transform: scale(1) rotate(280deg);
+    opacity: 0;
+  }
+  10% {
+    opacity: 0.3;
+  }
+  90% {
+    opacity: 0.3;
+  }
+  100% {
+    opacity: 0;
+    transform: scale(8) rotate(280deg);
+  }
+}
+body {
+  .main {
+    .top-effect {
+      display: flex;
+      position: absolute;
+      width: 99%;
+      height: 100%;
+      align-items: center;
+      justify-content: center;
+      top: 240px;
+      left: 15px;
+      overflow: hidden;
+      z-index: 100;
+    }
+
+    .top-effect img:nth-child(2) {
+      animation: scale-shockwave2 8s 6s infinite linear;
+    }
+    .top-effect img:nth-child(1) {
+      animation: scale-shockwave 8s infinite linear;
+    }
+
+    .top-effect img {
+      position: absolute;
+      width: 30vh;
+      opacity: 0.4;
+    }
+    img {
+      transition: 0.5s;
+    }
+
+    img {
+      overflow-clip-margin: content-box;
+      overflow: clip;
+    }
+  }
+}
