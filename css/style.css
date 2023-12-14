@@ -484,5 +484,9 @@ body .main img {
   overflow-clip-margin: content-box;
   overflow: clip;
 }
+body .sticky-card {
+  position: sticky;
+  z-index: 99;
+}
 
 /*# sourceMappingURL=style.css.map */

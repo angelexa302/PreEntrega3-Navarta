@@ -66,4 +66,17 @@ body {
       overflow: clip;
     }
   }
+  .sticky-card {
+    position: sticky;
+    // // //   bottom: 10px;
+    z-index: 99;
+    // // // }
+    // // // .main {
+    // // //   .txt-custom {
+    // // //     p,
+    // // //     h5 {
+    // // //       font-size: 24px;
+    // // //     }
+    // // //   }
+  }
 }
