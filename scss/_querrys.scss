@@ -62,11 +62,10 @@
         font-size: 18px !important;
       }
     }
-    small {
-      .f-text {
-        margin: 2px 80px !important;
-        font-size: 8px !important;
-      }
+
+    .f-text {
+      margin: 2px 80px !important;
+      font-size: 8px !important;
     }
   }
 }
@@ -76,11 +75,10 @@
     .voto {
       display: none;
     }
-    small {
-      .f-text {
-        margin: 2px 0px;
-        font-size: 2px;
-      }
+
+    .f-text {
+      margin: 2px 0px;
+      font-size: 2px;
     }
   }
   main {

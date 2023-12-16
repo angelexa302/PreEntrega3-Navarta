@@ -115,7 +115,7 @@ header a {
   footer .grid-container .email-support {
     font-size: 18px !important;
   }
-  footer small .f-text {
+  footer .f-text {
     margin: 2px 80px !important;
     font-size: 8px !important;
   }
@@ -124,7 +124,7 @@ header a {
   footer .voto {
     display: none;
   }
-  footer small .f-text {
+  footer .f-text {
     margin: 2px 0px;
     font-size: 2px;
   }
@@ -193,7 +193,7 @@ footer .grid-container .email-support {
   list-style: none;
 }
 footer .grid-container .email-support ul li p {
-  color: red;
+  color: black;
   list-style: none;
 }
 
@@ -305,7 +305,8 @@ body main .animacion .blue-light {
   opacity: 0.7;
 }
 
-footer small .f-text {
+footer .f-text {
+  display: flex;
   margin: 10px 200px;
   font-size: 12px;
   color: red;
@@ -352,17 +353,17 @@ body main .sparks {
 body main .sparks > div {
   position: absolute;
 }
-body main .sparks .spark_1 {
+body main .sparks .spark-1 {
   background: url(../assets/spark_1.png) no-repeat;
   width: 764px;
   height: 313px;
-  right: 165;
+  right: 165px;
   bottom: -120px;
   transform: scale(0.7);
   animation: spark-1 4s linear infinite;
   animation-delay: 1s;
 }
-body main .sparks .spark_2 {
+body main .sparks .spark-2 {
   background: url(../assets/spark_2.png) no-repeat;
   width: 149px;
   height: 335px;
@@ -372,7 +373,7 @@ body main .sparks .spark_2 {
   animation: spark-1 4s linear infinite;
   animation-delay: 2s;
 }
-body main .sparks .spark_3 {
+body main .sparks .spark-3 {
   background: url(../assets/spark_3.png) no-repeat;
   width: 128px;
   height: 165px;
@@ -457,10 +458,10 @@ body .main .top-effect {
   display: flex;
   position: absolute;
   width: 98%;
-  height: 100%;
+  height: 80%;
   align-items: center;
   justify-content: center;
-  top: 240px;
+  top: 10px;
   left: 15px;
   overflow: hidden;
   z-index: 100;
@@ -480,8 +481,7 @@ body .main img {
   transition: 0.5s;
 }
 body .main img {
-  overflow-clip-margin: content-box;
-  overflow: clip;
+  overflow: hidden;
 }
 body .sticky-card {
   position: sticky;

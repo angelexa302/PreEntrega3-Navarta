@@ -38,17 +38,17 @@ body {
     .sparks > div {
       position: absolute;
     }
-    .sparks .spark_1 {
+    .sparks .spark-1 {
       background: url(../assets/spark_1.png) no-repeat;
       width: 764px;
       height: 313px;
-      right: 165;
+      right: 165px;
       bottom: -120px;
       transform: scale(0.7);
       animation: spark-1 4s linear infinite;
       animation-delay: 1s;
     }
-    .sparks .spark_2 {
+    .sparks .spark-2 {
       background: url(../assets/spark_2.png) no-repeat;
       width: 149px;
       height: 335px;
@@ -58,7 +58,7 @@ body {
       animation: spark-1 4s linear infinite;
       animation-delay: 2s;
     }
-    .sparks .spark_3 {
+    .sparks .spark-3 {
       background: url(../assets/spark_3.png) no-repeat;
       width: 128px;
       height: 165px;
