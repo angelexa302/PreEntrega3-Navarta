@@ -1,10 +1,20 @@
 /*1278 Pc low resolution*/
+@media only screen and (min-width: 1279px) and (max-width: 1920px) {
+  body {
+    .custom-card {
+      margin: 0 200px;
+    }
+  }
+}
 @media only screen and (min-width: 1013px) and (max-width: 1279px) {
   header .bg-custom {
     align-items: center !important;
     justify-content: center !important;
   }
   body {
+    .custom-card {
+      margin: 0 200px;
+    }
     main {
       .sparks {
         display: none;
@@ -17,6 +27,14 @@
     display: none;
 
     font-size: 12px;
+  }
+  body {
+    .imagen-caracteristica-todo {
+      justify-content: center;
+      text-align: center;
+      align-items: center;
+      overflow: visible;
+    }
   }
 }
 @media only screen and (min-width: 583px) and (max-width: 902px) {
@@ -103,5 +121,18 @@
   }
   body {
     font-size: 12px;
+  }
+}
+@media only screen and (min-width: 200px) and (max-width: 414px) {
+  .imagen-caracteristica-todo {
+    h2 {
+      margin: 0px 0px;
+      font-size: 16px;
+    }
+    p {
+      padding: 0;
+      margin: 0;
+      font-size: 14px;
+    }
   }
 }

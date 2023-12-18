@@ -1,0 +1,132 @@
+$brown: #060101;
+#carateristicas {
+  background-color: #060101;
+}
+body {
+  .imagen-caracteristica-todo {
+    margin: 20px;
+    background: linear-gradient(to bottom, #060101, #ffac00, #060101);
+    .imagen-caracteristicas-fondo {
+      display: flex;
+      background-size: cover;
+      height: 200px;
+      overflow: hidden;
+      opacity: 70%;
+      align-items: center;
+      padding: 20px;
+      margin: 50px;
+    }
+    h2 {
+      font-family: philosopher, sans-serif;
+      font-weight: bold;
+      color: #ffdda9;
+      text-align: start;
+    }
+    p {
+      font-family: philosopher, sans-serif;
+
+      color: #ffdda9;
+    }
+  }
+
+  .custom-card {
+    padding: 20px;
+
+    .card {
+      background-color: #ffac00;
+      border: 2px solid #ffac00;
+
+      box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.43);
+      margin-bottom: 30px;
+
+      border-radius: 6px;
+
+      .mi-card {
+        background-color: #ffac00;
+        color: #060101;
+        font-weight: bold;
+        font-size: 25px;
+        font-family: philosopher, sans-serif;
+      }
+      .cuerpo-card {
+        font-family: "Roboto", sans-serif;
+        font-weight: 300;
+        font-size: 15px;
+        line-height: 1.5;
+        color: #b5bac1;
+        background: #232428;
+        p {
+          margin-top: 0;
+          font-size: 15px;
+          margin-bottom: 1rem;
+        }
+        .text-golden {
+          color: #ffac00;
+        }
+        .fa-caret-right:before {
+          content: "\f0da";
+        }
+        p b,
+        p strong {
+          color: #e0e0e0;
+        }
+        b,
+        strong {
+          font-weight: bold;
+        }
+      }
+    }
+  }
+}
+.footer-caracteristicas {
+  .grid-container {
+    display: flex;
+    justify-content: space-between;
+    ul {
+      li {
+        a {
+          list-style: lower-alpha;
+          font-family: "Open Sans", sans-serif;
+          font-size: 20px;
+          filter: drop-shadow(0 0 10px #e39a22);
+          transition: all 0.3s ease;
+          color: #696868;
+          text-decoration: none;
+          &:hover {
+            color: #fff;
+            text-decoration: none;
+          }
+        }
+      }
+    }
+    h2 {
+      font-family: philosopher, sans-serif;
+      font-size: 27px;
+      color: #ffdda9;
+      filter: drop-shadow(0 0 10px #e39a22);
+    }
+    .email-support {
+      font-family: "Open Sans", sans-serif;
+      font-size: 20px;
+      filter: drop-shadow(0 0 10px #e39a22);
+      list-style: none;
+      ul {
+        li {
+          p {
+            color: black;
+            list-style: none;
+          }
+        }
+      }
+    }
+  }
+  .f-text {
+    display: flex;
+    margin: 10px 200px;
+    font-size: 12px;
+    color: #e39a22;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+  }
+}
