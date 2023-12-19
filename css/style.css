@@ -475,6 +475,16 @@ body .imagen-caracteristica-todo p {
   font-family: philosopher, sans-serif;
   color: #ffdda9;
 }
+body .imagen-caracteristica-todo .button-caracteristicas {
+  margin: 50px;
+}
+body .imagen-caracteristica-todo .button-caracteristicas .b-c {
+  align-items: center;
+  justify-content: center;
+  background: #ffac00;
+  border: #e39a22;
+  color: #060101;
+}
 body .custom-card {
   padding: 20px;
 }

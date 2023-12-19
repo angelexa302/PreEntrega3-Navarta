@@ -27,6 +27,16 @@ body {
 
       color: #ffdda9;
     }
+    .button-caracteristicas {
+      margin: 50px;
+      .b-c {
+        align-items: center;
+        justify-content: center;
+        background: #ffac00;
+        border: #e39a22;
+        color: #060101;
+      }
+    }
   }
 
   .custom-card {
