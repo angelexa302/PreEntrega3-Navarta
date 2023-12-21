@@ -479,7 +479,6 @@ body .imagen-caracteristica-todo .button-caracteristicas {
   margin: 50px;
 }
 body .imagen-caracteristica-todo .button-caracteristicas .b-c {
-  align-items: center;
   justify-content: center;
   background: #ffac00;
   border: #e39a22;
@@ -637,6 +636,13 @@ body .main img {
 body .sticky-card {
   position: sticky;
   z-index: 99;
+}
+
+body .container-reglas {
+  padding: 40px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
 }
 
 /*# sourceMappingURL=style.css.map */
