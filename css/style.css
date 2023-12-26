@@ -451,11 +451,18 @@ header nav .offcanvas-body a {
   background-color: #060101;
 }
 
-body .imagen-caracteristica-todo {
+body main.caracteristicas {
+  background-color: rgb(58, 58, 63);
+  width: 100%;
+  height: 0%;
+  background: url() center no-repeat;
+  /* background-size: cover; */
+}
+body main.caracteristicas .imagen-caracteristica-todo {
   margin: 20px;
   background: linear-gradient(to bottom, #060101, #ffac00, #060101);
 }
-body .imagen-caracteristica-todo .imagen-caracteristicas-fondo {
+body main.caracteristicas .imagen-caracteristica-todo .imagen-caracteristicas-fondo {
   display: flex;
   background-size: cover;
   height: 200px;
@@ -465,43 +472,43 @@ body .imagen-caracteristica-todo .imagen-caracteristicas-fondo {
   padding: 20px;
   margin: 50px;
 }
-body .imagen-caracteristica-todo h2 {
+body main.caracteristicas .imagen-caracteristica-todo h2 {
   font-family: philosopher, sans-serif;
   font-weight: bold;
   color: #ffdda9;
   text-align: start;
 }
-body .imagen-caracteristica-todo p {
+body main.caracteristicas .imagen-caracteristica-todo p {
   font-family: philosopher, sans-serif;
   color: #ffdda9;
 }
-body .imagen-caracteristica-todo .button-caracteristicas {
+body main.caracteristicas .imagen-caracteristica-todo .button-caracteristicas {
   margin: 50px;
 }
-body .imagen-caracteristica-todo .button-caracteristicas .b-c {
+body main.caracteristicas .imagen-caracteristica-todo .button-caracteristicas .b-c {
   justify-content: center;
   background: #ffac00;
   border: #e39a22;
   color: #060101;
 }
-body .custom-card {
+body main.caracteristicas .custom-card {
   padding: 20px;
 }
-body .custom-card .card {
+body main.caracteristicas .custom-card .card {
   background-color: #ffac00;
   border: 2px solid #ffac00;
   box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.43);
   margin-bottom: 30px;
   border-radius: 6px;
 }
-body .custom-card .card .mi-card {
+body main.caracteristicas .custom-card .card .mi-card {
   background-color: #ffac00;
   color: #060101;
   font-weight: bold;
   font-size: 25px;
   font-family: philosopher, sans-serif;
 }
-body .custom-card .card .cuerpo-card {
+body main.caracteristicas .custom-card .card .cuerpo-card {
   font-family: "Roboto", sans-serif;
   font-weight: 300;
   font-size: 15px;
@@ -509,23 +516,23 @@ body .custom-card .card .cuerpo-card {
   color: #b5bac1;
   background: #232428;
 }
-body .custom-card .card .cuerpo-card p {
+body main.caracteristicas .custom-card .card .cuerpo-card p {
   margin-top: 0;
   font-size: 15px;
   margin-bottom: 1rem;
 }
-body .custom-card .card .cuerpo-card .text-golden {
+body main.caracteristicas .custom-card .card .cuerpo-card .text-golden {
   color: #ffac00;
 }
-body .custom-card .card .cuerpo-card .fa-caret-right:before {
+body main.caracteristicas .custom-card .card .cuerpo-card .fa-caret-right:before {
   content: "\f0da";
 }
-body .custom-card .card .cuerpo-card p b,
-body .custom-card .card .cuerpo-card p strong {
+body main.caracteristicas .custom-card .card .cuerpo-card p b,
+body main.caracteristicas .custom-card .card .cuerpo-card p strong {
   color: #e0e0e0;
 }
-body .custom-card .card .cuerpo-card b,
-body .custom-card .card .cuerpo-card strong {
+body main.caracteristicas .custom-card .card .cuerpo-card b,
+body main.caracteristicas .custom-card .card .cuerpo-card strong {
   font-weight: bold;
 }
 

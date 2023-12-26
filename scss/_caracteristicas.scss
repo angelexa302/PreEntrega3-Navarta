@@ -2,7 +2,14 @@ $brown: #060101;
 #carateristicas {
   background-color: #060101;
 }
-body {
+body{
+  main.caracteristicas {
+    background-color: rgb(58, 58, 63);
+    width: 100%;
+    height: 0%;
+    background: url() center no-repeat;
+    /* background-size: cover; */
+
   .imagen-caracteristica-todo {
     margin: 20px;
     background: linear-gradient(to bottom, #060101, #ffac00, #060101);
@@ -86,6 +93,7 @@ body {
       }
     }
   }
+}
 }
 .footer-caracteristicas {
   .grid-container {
