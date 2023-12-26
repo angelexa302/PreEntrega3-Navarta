@@ -44,6 +44,17 @@
     }
   }
 }
+@media only screen and (min-width: 200px) and (max-width: 865px) {
+  body{
+   main.caracteristicas {
+  .button-caracteristicas { 
+    .b-c {
+    margin: 10px 10px !important;
+  }
+}
+}
+}
+}
 
 @media only screen and (min-width: 583px) and (max-width: 782px) {
   nav,

@@ -95,6 +95,11 @@ header a {
     display: none;
   }
 }
+@media only screen and (min-width: 200px) and (max-width: 865px) {
+  body main.caracteristicas .button-caracteristicas .b-c {
+    margin: 10px 10px !important;
+  }
+}
 @media only screen and (min-width: 583px) and (max-width: 782px) {
   nav,
   main .imagen-godworld {
@@ -484,8 +489,10 @@ body main.caracteristicas .imagen-caracteristica-todo p {
 }
 body main.caracteristicas .imagen-caracteristica-todo .button-caracteristicas {
   margin: 50px;
+  padding: 25px;
 }
 body main.caracteristicas .imagen-caracteristica-todo .button-caracteristicas .b-c {
+  margin: 0px 20px;
   justify-content: center;
   background: #ffac00;
   border: #e39a22;
