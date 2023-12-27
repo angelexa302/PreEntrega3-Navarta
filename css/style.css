@@ -497,6 +497,11 @@ body main.caracteristicas .imagen-caracteristica-todo .button-caracteristicas .b
   background: #ffac00;
   border: #e39a22;
   color: #060101;
+  transition: 1s;
+}
+body main.caracteristicas .imagen-caracteristica-todo .button-caracteristicas .b-c:hover {
+  background: #e39a22;
+  color: #fafafa;
 }
 body main.caracteristicas .custom-card {
   padding: 20px;
@@ -584,6 +589,37 @@ body main.caracteristicas .custom-card .card .cuerpo-card strong {
   text-align: center;
   justify-content: center;
   align-items: center;
+}
+
+.toTop {
+  scroll-behavior: smooth;
+  opacity: 0;
+  transition: opacity 0.5s ease-in-out;
+  background: url(../assets/totop-img.png) left center no-repeat;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  min-width: 100px;
+  position: fixed;
+  left: 0;
+  bottom: 180px;
+  padding-left: 105px;
+  cursor: pointer;
+  transform: rotate(-90deg);
+  z-index: 8;
+}
+.toTop a {
+  text-decoration-line: none;
+  color: rgb(58, 58, 63);
+  list-style: none;
+  transition: 1s;
+}
+.toTop a:hover {
+  color: #fafafa;
+}
+
+.scrolled .toTop {
+  opacity: 1;
 }
 
 @keyframes scale-shockwave {

@@ -2,7 +2,8 @@ $brown: #060101;
 #carateristicas {
   background-color: #060101;
 }
-body{
+
+body {
   main.caracteristicas {
     background-color: rgb(58, 58, 63);
     width: 100%;
@@ -10,97 +11,116 @@ body{
     background: url() center no-repeat;
     /* background-size: cover; */
 
-  .imagen-caracteristica-todo {
-    margin: 20px;
-    background: linear-gradient(to bottom, #060101, #ffac00, #060101);
-    .imagen-caracteristicas-fondo {
-      display: flex;
-      background-size: cover;
-      height: 200px;
-      overflow: hidden;
-      opacity: 70%;
-      align-items: center;
-      padding: 20px;
-      margin: 50px;
-    }
-    h2 {
-      font-family: philosopher, sans-serif;
-      font-weight: bold;
-      color: #ffdda9;
-      text-align: start;
-    }
-    p {
-      font-family: philosopher, sans-serif;
+    .imagen-caracteristica-todo {
+      margin: 20px;
+      background: linear-gradient(to bottom, #060101, #ffac00, #060101);
 
-      color: #ffdda9;
-    }
-    .button-caracteristicas {
-      margin: 50px;
-      padding: 25px;
-      .b-c {
-        margin: 0px 20px;
-        justify-content: center;
-        background: #ffac00;
-        border: #e39a22;
-        color: #060101;
+      .imagen-caracteristicas-fondo {
+        display: flex;
+        background-size: cover;
+        height: 200px;
+        overflow: hidden;
+        opacity: 70%;
+        align-items: center;
+        padding: 20px;
+        margin: 50px;
       }
-    }
-  }
 
-  .custom-card {
-    padding: 20px;
-
-    .card {
-      background-color: #ffac00;
-      border: 2px solid #ffac00;
-
-      box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.43);
-      margin-bottom: 30px;
-
-      border-radius: 6px;
-
-      .mi-card {
-        background-color: #ffac00;
-        color: #060101;
-        font-weight: bold;
-        font-size: 25px;
+      h2 {
         font-family: philosopher, sans-serif;
+        font-weight: bold;
+        color: #ffdda9;
+        text-align: start;
       }
-      .cuerpo-card {
-        font-family: "Roboto", sans-serif;
-        font-weight: 300;
-        font-size: 15px;
-        line-height: 1.5;
-        color: #b5bac1;
-        background: #232428;
-        p {
-          margin-top: 0;
-          font-size: 15px;
-          margin-bottom: 1rem;
+
+      p {
+        font-family: philosopher, sans-serif;
+
+        color: #ffdda9;
+      }
+
+      .button-caracteristicas {
+        margin: 50px;
+        padding: 25px;
+
+        .b-c {
+          margin: 0px 20px;
+          justify-content: center;
+          background: #ffac00;
+          border: #e39a22;
+          color: #060101;
+          transition: 1s;
+
+          &:hover {
+            background: #e39a22;
+            color: #fafafa
+          }
         }
-        .text-golden {
-          color: #ffac00;
-        }
-        .fa-caret-right:before {
-          content: "\f0da";
-        }
-        p b,
-        p strong {
-          color: #e0e0e0;
-        }
-        b,
-        strong {
+      }
+    }
+
+    .custom-card {
+      padding: 20px;
+
+      .card {
+        background-color: #ffac00;
+        border: 2px solid #ffac00;
+
+        box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.43);
+        margin-bottom: 30px;
+
+        border-radius: 6px;
+
+        .mi-card {
+          background-color: #ffac00;
+          color: #060101;
           font-weight: bold;
+          font-size: 25px;
+          font-family: philosopher, sans-serif;
+        }
+
+        .cuerpo-card {
+          font-family: "Roboto", sans-serif;
+          font-weight: 300;
+          font-size: 15px;
+          line-height: 1.5;
+          color: #b5bac1;
+          background: #232428;
+
+          p {
+            margin-top: 0;
+            font-size: 15px;
+            margin-bottom: 1rem;
+          }
+
+          .text-golden {
+            color: #ffac00;
+          }
+
+          .fa-caret-right:before {
+            content: "\f0da";
+          }
+
+          p b,
+          p strong {
+            color: #e0e0e0;
+          }
+
+          b,
+          strong {
+            font-weight: bold;
+          }
         }
       }
     }
   }
 }
-}
+
 .footer-caracteristicas {
   .grid-container {
     display: flex;
     justify-content: space-between;
+
     ul {
       li {
         a {
@@ -111,6 +131,7 @@ body{
           transition: all 0.3s ease;
           color: #696868;
           text-decoration: none;
+
           &:hover {
             color: #fff;
             text-decoration: none;
@@ -118,17 +139,20 @@ body{
         }
       }
     }
+
     h2 {
       font-family: philosopher, sans-serif;
       font-size: 27px;
       color: #ffdda9;
       filter: drop-shadow(0 0 10px #e39a22);
     }
+
     .email-support {
       font-family: "Open Sans", sans-serif;
       font-size: 20px;
       filter: drop-shadow(0 0 10px #e39a22);
       list-style: none;
+
       ul {
         li {
           p {
@@ -139,6 +163,7 @@ body{
       }
     }
   }
+
   .f-text {
     display: flex;
     margin: 10px 200px;
@@ -147,5 +172,40 @@ body{
     text-align: center;
     justify-content: center;
     align-items: center;
+  }
+}
+
+.toTop {
+  scroll-behavior: smooth;
+  opacity: 0;
+  transition: opacity 0.5s ease-in-out;
+  background: url(../assets/totop-img.png) left center no-repeat;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  min-width: 100px;
+  position: fixed;
+  left: 0;
+  bottom: 180px;
+  padding-left: 105px;
+  cursor: pointer;
+  transform: rotate(-90deg);
+  z-index: 8;
+
+  a {
+    text-decoration-line: none;
+    color: rgb(58, 58, 63);
+    list-style: none;
+    transition: 1s;
+
+    &:hover {
+      color: #fafafa;
+    }
+  }
+}
+
+.scrolled {
+  .toTop {
+    opacity: 1;
   }
 }
