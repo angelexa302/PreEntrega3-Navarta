@@ -62,7 +62,32 @@
     }
   }
 }
+@media only screen and (min-width: 200px) and (max-width: 865px) {
+  body.support {
+    main.color-gris {
+        .hero,
+        hero-game {
+            .container {
+                .hero-block {
+                    text-align: left;
+                    padding-top: 0px!important;
+                    -webkit-box-pack: start;
+                    -ms-flex-pack: start;
+                    justify-content: flex-start;
+                }
+              }
+            }
+          
 
+  .sin-fondo-soporte {
+    margin: 0 !important;
+    background-color: red;
+    font-size: 8px;
+    padding: 2px !important;
+  }
+}
+}
+}
 @media only screen and (min-width: 583px) and (max-width: 782px) {
 
   nav,
