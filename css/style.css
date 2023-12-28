@@ -814,10 +814,9 @@ body.support main.color-gris .blockquote {
 body.support main.color-gris .sin-fondo-soporte {
   margin: 100px 100px;
   padding: 45px;
-  height: 80%;
-  width: 80%;
-  align-items: center;
-  background: url(../assets/body-bg.jpg) center no-repeat;
+  height: 100%;
+  width: 100%;
+  background: url(../assets/body-bg.jpg) center center fixed no-repeat;
   background-color: #696868;
 }
 body.support main.color-gris .sin-fondo-soporte .m-b-20, body.support main.color-gris .sin-fondo-soporte p, body.support main.color-gris .sin-fondo-soporte li, body.support main.color-gris .sin-fondo-soporte h5 {
