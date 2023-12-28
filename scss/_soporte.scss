@@ -96,7 +96,8 @@ body.support {
         .sin-fondo-soporte {
             margin: 100px 100px;
             padding: 45px;
-            height: 0%;
+            height: auto;
+            width: auto;
             background: url(../assets/body-bg.jpg) center no-repeat;
             background-color: #696868;
             .m-b-20, p, li, h5{
