@@ -819,7 +819,10 @@ body.support main.color-gris .sin-fondo-soporte {
   background: url(../assets/body-bg.jpg) center center fixed no-repeat;
   background-color: #696868;
 }
-body.support main.color-gris .sin-fondo-soporte .m-b-20, body.support main.color-gris .sin-fondo-soporte p, body.support main.color-gris .sin-fondo-soporte li, body.support main.color-gris .sin-fondo-soporte h5 {
+body.support main.color-gris .sin-fondo-soporte .m-b-20,
+body.support main.color-gris .sin-fondo-soporte p,
+body.support main.color-gris .sin-fondo-soporte li,
+body.support main.color-gris .sin-fondo-soporte h5 {
   color: #e0e0e0;
   font-family: "Roboto", sans-serif;
   font-weight: 500;
