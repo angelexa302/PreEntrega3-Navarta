@@ -54,6 +54,15 @@ footer {
       }
     }
   }
+  .iconos {
+    margin: 10px 0px;
+    list-style: none;
+    li {
+      a{
+        margin: 0px 4px;
+      }
+    }
+  }
 }
 .mi-footer {
   background-image: linear-gradient(to top, rgb(1, 2, 1), rgb(11, 2, 3));
