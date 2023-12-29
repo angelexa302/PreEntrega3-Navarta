@@ -726,7 +726,7 @@ body.support main.color-gris {
   height: auto;
   background: url() center no-repeat;
   margin: 0px;
-  padding: auto;
+  padding: 0px;
 }
 body.support main.color-gris .hero,
 body.support main.color-gris hero-game {
